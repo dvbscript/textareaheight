@@ -1,0 +1,34 @@
+.icon-scroll-arrows-top:before {
+    content: "";
+    border: solid transparent;
+    position: absolute;
+    bottom: 4px;
+    left: 50%;
+    border-bottom-color: #cfcfcf;
+    border-width: 13px;
+    margin-left: -9px;
+}
+.icon-scroll-arrows-bot:before {
+    content: "";
+    border: solid transparent;
+    position: absolute;
+    top: 4px;
+    border-top-color: #cfcfcf;
+    border-width: 13px;
+}
+
+textarea + .resizer {
+    height: 20px;
+    border: #5d7592c2 solid 1px;
+    width: 100%;
+    cursor: pointer;
+    border-radius: 0 0 5px 5px;
+    position: relative;
+}
+.resizer .icon-scroll-arrows {
+    color: #5d7592c2;
+    font-size: 12px;
+    display: block;
+    margin: 0 auto;
+    width: 20px;
+}
